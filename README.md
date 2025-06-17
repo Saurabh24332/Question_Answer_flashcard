@@ -44,7 +44,7 @@ streamlit run app.py
 
 
 ## 🧾 Requirements
-python-3.12.0
+Python-3.12.0
 
 Your `requirements.txt` should include:
 
@@ -93,8 +93,9 @@ Japanese
 ![image](https://github.com/user-attachments/assets/6ffe670b-d4b3-4123-bb98-b22fc8a63dca)
 
 ### 📋 Review Output Section
-
+```text
 After flashcards are generated, users can review the raw output in a structured format for validation or preview before exporting.
+```
 
 #### ✅ Key Features:
 - Displays all generated flashcards in **plain text**
@@ -106,6 +107,46 @@ After flashcards are generated, users can review the raw output in a structured 
 - Shown as an expandable section titled **"📋 Review Output"**
 - Located just below the flashcard generation area
 
+
+## ☁️ Deployment Instructions
+
+### 🚀 Deploy on **Render**
+
+1. Push your project to a GitHub repository.
+2. Go to [Render](https://render.com) and create a new **Web Service**.
+3. Connect your GitHub repo and configure the settings:
+
+   - **Build Command:**  
+     ```bash
+     pip install -r requirements.txt
+     ```
+
+   - **Start Command:**  
+     ```bash
+     streamlit run app.py
+     ```
+
+4. Save and deploy. Your app will be available at the Render-generated URL.
+
+---
+
+### 🌐 Deploy on **Streamlit Cloud**
+
+1. Push your project to a GitHub repository.
+2. Go to [Streamlit Cloud](https://streamlit.io/cloud) and sign in.
+3. Click on **"New app"** and connect your GitHub repository.
+4. Select the branch and the `app.py` file as the main entry point.
+5. Click **Deploy**.
+
+> 🔁 Streamlit will automatically handle environment setup based on your `requirements.txt`.
+
+---
+
+### ✅ Deployment Links
+
+- 🌐 **Streamlit Cloud App:** [Live Demo on Streamlit](https://questionanswerflashcard-nq9plrcs2x8acwk5mleqqr.streamlit.app/)
+- 🚀 **Render App:** [Live Demo on Render](https://question-flashcard-generator.onrender.com)
+
 #### 🔍 Example Preview:
 
 ```text
@@ -116,13 +157,14 @@ C) A global network of interconnected computers
 D) A messaging app
 Answer: C
 Explanation: The Internet is a global network used to connect computers and share data.
-
+```
 ---
 ![image](https://github.com/user-attachments/assets/ea60f917-2269-4473-8270-2ad9a116137f)
 
 ### 📤 Export Section
-
+```text
 Once flashcards are generated and reviewed, users can export them in multiple formats for study or integration with popular tools like **Anki** or **Quizlet**.
+```
 
 #### ✅ Supported Export Formats:
 
@@ -151,7 +193,7 @@ It allows users to access and share information across the world. The World Wide
 on the Internet and enables users to access web pages using browsers and URLs.
 ```
 
-output
+### output
 ```text
 [
   {
