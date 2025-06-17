@@ -41,18 +41,7 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
----
 
-## ☁️ Deployment (Render)
-
-1. Create a `.runtime.txt` file in the root of your repo:
-
-
-2. Push to GitHub and deploy via [Render](https://render.com):
-   - Use build command: `pip install -r requirements.txt`
-   - Use start command: `streamlit run app.py`
-
----
 
 ## 🧾 Requirements
 python-3.12.0
