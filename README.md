@@ -214,3 +214,7 @@ on the Internet and enables users to access web pages using browsers and URLs.
 
 ![image](https://github.com/user-attachments/assets/f77a8fd1-18c0-4a52-879d-478fcc80ed16)
 
+### 🎥 Demo Video
+
+📽️ [Click here to watch the demo](https://drive.google.com/file/d/1UxJhg5cs07yvt6dmVxRHohQFh2Kac50g/view?usp=sharing)
+
