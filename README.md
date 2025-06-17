@@ -55,6 +55,7 @@ streamlit run app.py
 ---
 
 ## 🧾 Requirements
+python-3.12.0
 
 Your `requirements.txt` should include:
 
